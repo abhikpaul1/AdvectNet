@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+scikit-image
+imageio
+tqdm
+requests
+h5py
+s3fs
+satpy
+torch
+torchvision
+streamlit

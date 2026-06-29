@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+
+# Large/generated artifacts
+*.h5
+*.hdf5
+*.nc
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.gif
+*.mp4
+*.avi
+
+# Kaggle/runtime outputs
+hima_tmp/
+hima_month_shards/
+hima_month_checkpoints/
+mosdac_tir1_downloads/
+insat3dr_tir1_advectnet_outputs/
+advectnet_himawari_validation/
+
+# Keep directory placeholders
+!data_sample/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
